@@ -29,7 +29,7 @@ Live Application:
 
 
 GitHub Repository:
-
+https://github.com/gargibhoyar/WorkNest-Team-Task-Manager.git
 
 Demo Video:
 
