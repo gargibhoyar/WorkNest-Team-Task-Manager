@@ -25,7 +25,7 @@ cd team task manager
 npm install
 npm run dev
 
-Live Application:
+Live Application:https://worknest-team-task-manager.netlify.app/
 
 
 GitHub Repository:
