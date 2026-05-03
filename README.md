@@ -31,7 +31,7 @@ Live Application:https://worknest-team-task-manager.netlify.app/
 GitHub Repository:
 https://github.com/gargibhoyar/WorkNest-Team-Task-Manager.git
 
-Demo Video:
+Demo Video:https://drive.google.com/file/d/1bw7uQr_6s_l35YBt9KZ-yBopJ3L54H6P/view?usp=drivesdk
 
 
 Note:
