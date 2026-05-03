@@ -1,0 +1,147 @@
+.project-details {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: var(--primary-color);
+}
+
+.project-header {
+  margin-bottom: 2rem;
+}
+
+.project-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-header p {
+  color: var(--text-muted);
+}
+
+.tasks-container {
+  padding: 2rem;
+}
+
+.tasks-header {
+  margin-bottom: 1.5rem;
+}
+
+.add-task-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.add-task-form .input {
+  flex: 1;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.empty-tasks {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-muted);
+  border: 1px dashed var(--border-color);
+  border-radius: 0.5rem;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.task-item:hover {
+  border-color: #374151;
+}
+
+.task-item.completed {
+  opacity: 0.7;
+}
+
+.task-item.completed .task-title {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.task-status-btn {
+  color: var(--text-muted);
+  display: flex;
+  transition: color 0.2s;
+}
+
+.task-status-btn:hover {
+  color: var(--primary-color);
+}
+
+.status-done {
+  color: var(--success-color);
+}
+
+.task-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.task-title {
+  font-weight: 500;
+}
+
+.task-status-badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  color: var(--text-muted);
+}
+
+.task-actions-btn {
+  color: var(--text-muted);
+}
+.task-actions-btn:hover {
+  color: var(--text-main);
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.members-container {
+  padding: 2rem;
+}
+
+.members-list {
+  margin-top: 1rem;
+}
+
+.add-member-form {
+  margin-top: 1rem;
+}
